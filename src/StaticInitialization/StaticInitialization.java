@@ -25,7 +25,7 @@ class Table {
         System.out.println("f2(" + marker + ")");
     }
 
-    static Bowl bowl2 = new Bowl(2);
+    static Bowl bowl2 = new Bowl(2);//создам статический объект?
 }
 
 class Cupboard {

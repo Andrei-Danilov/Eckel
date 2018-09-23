@@ -21,5 +21,6 @@ public class PassingClass {
         int age = 111;
         System.out.println("Проверим, чему теперь равно cat1.age: " + cat1.age);
         new Dog();
+        Cat cat = new Cat("Ledenets");
     }
 }

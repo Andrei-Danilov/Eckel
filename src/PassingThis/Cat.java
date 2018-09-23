@@ -1,6 +1,7 @@
 package PassingThis;
 
-public class Cat {
+class Cat {
+    {System.out.println("Блок класса Cat выполнен.");}
     String name;            //обычная переменная
     int age = 66;
     static int catCount;    //статическая переменная
@@ -18,6 +19,7 @@ public class Cat {
     }
 
     Cat(String name) {
+        System.out.println("Конструктор класса Cat выполненн.");
         this.name = name;
         catCount++;   //увеличиваем значение статический переменной на 1 при каждом ооздании экземпляра
     }
